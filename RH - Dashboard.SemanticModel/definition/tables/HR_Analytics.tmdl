@@ -1,0 +1,312 @@
+table HR_Analytics
+	lineageTag: b15f1bdc-f407-4add-91e6-19fb8acdf5ce
+
+	column ID
+		dataType: string
+		lineageTag: 8f8548d5-b83e-4015-bc76-98c862a795d9
+		summarizeBy: none
+		sourceColumn: ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Idade
+		dataType: int64
+		formatString: 0
+		lineageTag: 6c9f09f5-309c-4a24-8c6e-8ba22dceef19
+		summarizeBy: sum
+		sourceColumn: Idade
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Faixa Etária'
+		dataType: string
+		lineageTag: 8f2bdda6-5eec-4e29-a9de-68ab45f8b636
+		summarizeBy: none
+		sourceColumn: Faixa Etária
+
+		annotation SummarizationSetBy = Automatic
+
+	column Atrito
+		dataType: string
+		lineageTag: 411ccfb0-cc6c-492e-acd2-9f843d75711f
+		summarizeBy: none
+		sourceColumn: Atrito
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Viagem Corporativa'
+		dataType: string
+		lineageTag: 8331670d-d3a3-40e0-a903-f81231c49dd2
+		summarizeBy: none
+		sourceColumn: Viagem Corporativa
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Taxa Diária'
+		dataType: int64
+		formatString: 0
+		lineageTag: 505a7245-3329-4960-8ade-7b1563961fb1
+		summarizeBy: sum
+		sourceColumn: Taxa Diária
+
+		annotation SummarizationSetBy = Automatic
+
+	column Departamento
+		dataType: string
+		lineageTag: f20745d1-7b15-4b4b-a1fa-cc187f167491
+		summarizeBy: none
+		sourceColumn: Departamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Distância de Casa'
+		dataType: int64
+		formatString: 0
+		lineageTag: c57d6b66-bcaa-47f9-b667-5ca33281e798
+		summarizeBy: sum
+		sourceColumn: Distância de Casa
+
+		annotation SummarizationSetBy = Automatic
+
+	column Escolaridade
+		dataType: int64
+		formatString: 0
+		lineageTag: 9d309372-659e-4b71-8fe2-a5aa213b87d8
+		summarizeBy: sum
+		sourceColumn: Escolaridade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Formação
+		dataType: string
+		lineageTag: c1f69f7e-b51f-41da-b1d2-df41227e62fc
+		summarizeBy: none
+		sourceColumn: Formação
+
+		annotation SummarizationSetBy = Automatic
+
+	column Satisfação
+		dataType: int64
+		formatString: 0
+		lineageTag: e7bea75d-873f-4d95-85f0-85720f987cdf
+		summarizeBy: sum
+		sourceColumn: Satisfação
+
+		annotation SummarizationSetBy = Automatic
+
+	column Gênero
+		dataType: string
+		lineageTag: 541316a5-2b25-4896-a0d3-6347dec42902
+		summarizeBy: none
+		sourceColumn: Gênero
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Carga Horária'
+		dataType: int64
+		formatString: 0
+		lineageTag: fd57e0b2-e900-4851-8754-f6f640f6c900
+		summarizeBy: sum
+		sourceColumn: Carga Horária
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Envolvimento Trabalho'
+		dataType: int64
+		formatString: 0
+		lineageTag: d99a2016-2798-4de4-a000-f8b2c6c7789c
+		summarizeBy: sum
+		sourceColumn: Envolvimento Trabalho
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nível Cargo'
+		dataType: int64
+		formatString: 0
+		lineageTag: 1888fc7f-8629-4a65-845c-1c0cf16c8b8e
+		summarizeBy: sum
+		sourceColumn: Nível Cargo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cargo
+		dataType: string
+		lineageTag: dc1ada00-bd3b-4362-86a4-759fcb96e0d5
+		summarizeBy: none
+		sourceColumn: Cargo
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Satisfação Trabalho'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7b86c3a0-fbe9-4134-b6c5-05671bee39ee
+		summarizeBy: sum
+		sourceColumn: Satisfação Trabalho
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Estado Civil'
+		dataType: string
+		lineageTag: 2dfe585d-1b80-4d30-b84c-2eddd559d9f5
+		summarizeBy: none
+		sourceColumn: Estado Civil
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Faixa Salarial'
+		dataType: string
+		lineageTag: a77ed666-8b24-4bb4-a1a1-d2ddae0cdb5b
+		summarizeBy: none
+		sourceColumn: Faixa Salarial
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Empregos Anteriores'
+		dataType: int64
+		formatString: 0
+		lineageTag: 731ef6fd-fab4-49dc-b0a6-8bb64e456c9c
+		summarizeBy: sum
+		sourceColumn: Empregos Anteriores
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Hora Extra'
+		dataType: string
+		lineageTag: 2d0f8cd7-5f7e-4699-9107-2f9738ef4464
+		summarizeBy: none
+		sourceColumn: Hora Extra
+
+		annotation SummarizationSetBy = Automatic
+
+	column Performance
+		dataType: int64
+		formatString: 0
+		lineageTag: fd5724c8-f1b2-4cae-a6ac-539fecfb0a88
+		summarizeBy: sum
+		sourceColumn: Performance
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tempo de Trabalho'
+		dataType: int64
+		formatString: 0
+		lineageTag: b2db30c6-fa01-4db4-b357-a839091a74d6
+		summarizeBy: sum
+		sourceColumn: Tempo de Trabalho
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Vida Profissional e Pessoal'
+		dataType: int64
+		formatString: 0
+		lineageTag: 82a4c8fd-770a-49cc-b649-d34d6cce5b13
+		summarizeBy: sum
+		sourceColumn: Vida Profissional e Pessoal
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tempo na Empresa'
+		dataType: int64
+		formatString: 0
+		lineageTag: 47d6545d-0e9b-45a0-947b-eff6e4d03d36
+		summarizeBy: sum
+		sourceColumn: Tempo na Empresa
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Cargo Atual'
+		dataType: int64
+		formatString: 0
+		lineageTag: e70f56f7-0e62-42e8-a3e7-ec0ad4b76d0f
+		summarizeBy: sum
+		sourceColumn: Cargo Atual
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Última Promoção'
+		dataType: int64
+		formatString: 0
+		lineageTag: a8b50e52-b5aa-4bf8-9505-72498170c450
+		summarizeBy: sum
+		sourceColumn: Última Promoção
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Gerente Atual'
+		dataType: int64
+		formatString: 0
+		lineageTag: c49986cc-b5a8-460a-8e66-e4f48a8edd76
+		summarizeBy: sum
+		sourceColumn: Gerente Atual
+
+		annotation SummarizationSetBy = Automatic
+
+	partition HR_Analytics = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\Thiago\Projetos\analise-rh\HR_Analytics.csv"),[Delimiter=",", Columns=38, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"EmpID", type text}, {"Age", Int64.Type}, {"AgeGroup", type text}, {"Attrition", type text}, {"BusinessTravel", type text}, {"DailyRate", Int64.Type}, {"Department", type text}, {"DistanceFromHome", Int64.Type}, {"Education", Int64.Type}, {"EducationField", type text}, {"EmployeeCount", Int64.Type}, {"EmployeeNumber", Int64.Type}, {"EnvironmentSatisfaction", Int64.Type}, {"Gender", type text}, {"HourlyRate", Int64.Type}, {"JobInvolvement", Int64.Type}, {"JobLevel", Int64.Type}, {"JobRole", type text}, {"JobSatisfaction", Int64.Type}, {"MaritalStatus", type text}, {"MonthlyIncome", Int64.Type}, {"SalarySlab", type text}, {"MonthlyRate", Int64.Type}, {"NumCompaniesWorked", Int64.Type}, {"Over18", type text}, {"OverTime", type text}, {"PercentSalaryHike", Int64.Type}, {"PerformanceRating", Int64.Type}, {"RelationshipSatisfaction", Int64.Type}, {"StandardHours", Int64.Type}, {"StockOptionLevel", Int64.Type}, {"TotalWorkingYears", Int64.Type}, {"TrainingTimesLastYear", Int64.Type}, {"WorkLifeBalance", Int64.Type}, {"YearsAtCompany", Int64.Type}, {"YearsInCurrentRole", Int64.Type}, {"YearsSinceLastPromotion", Int64.Type}, {"YearsWithCurrManager", Int64.Type}}),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Tipo Alterado",{{"EmpID", "ID"}, {"Age", "Idade"}, {"AgeGroup", "Faixa Etária"}, {"Attrition", "Atrito"}}),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Colunas Renomeadas","Yes","Sim",Replacer.ReplaceText,{"Atrito"}),
+				    #"Valor Substituído1" = Table.ReplaceValue(#"Valor Substituído","No","Não",Replacer.ReplaceText,{"Atrito"}),
+				    #"Colunas Renomeadas1" = Table.RenameColumns(#"Valor Substituído1",{{"BusinessTravel", "Viagem Corporativa"}}),
+				    #"Valor Substituído2" = Table.ReplaceValue(#"Colunas Renomeadas1","Non-Travel","Não Viaja",Replacer.ReplaceText,{"Viagem Corporativa"}),
+				    #"Valor Substituído3" = Table.ReplaceValue(#"Valor Substituído2","Travel_Rarely","Raramente",Replacer.ReplaceText,{"Viagem Corporativa"}),
+				    #"Valor Substituído4" = Table.ReplaceValue(#"Valor Substituído3","Travel_Frequently","Frequentemente",Replacer.ReplaceText,{"Viagem Corporativa"}),
+				    #"Linhas Filtradas" = Table.SelectRows(#"Valor Substituído4", each true),
+				    #"Valor Substituído5" = Table.ReplaceValue(#"Linhas Filtradas","TravelRarely","Raramente",Replacer.ReplaceText,{"Viagem Corporativa"}),
+				    #"Colunas Renomeadas2" = Table.RenameColumns(#"Valor Substituído5",{{"Department", "Departamento"}}),
+				    #"Valor Substituído6" = Table.ReplaceValue(#"Colunas Renomeadas2","Sales","Vendas",Replacer.ReplaceText,{"Departamento"}),
+				    #"Valor Substituído7" = Table.ReplaceValue(#"Valor Substituído6","Research & Development","P&D",Replacer.ReplaceText,{"Departamento"}),
+				    #"Valor Substituído8" = Table.ReplaceValue(#"Valor Substituído7","Human Resources","RH",Replacer.ReplaceText,{"Departamento"}),
+				    #"Colunas Renomeadas3" = Table.RenameColumns(#"Valor Substituído8",{{"DailyRate", "Taxa Diária"}, {"DistanceFromHome", "Distância de Casa"}}),
+				    #"Linhas Filtradas1" = Table.SelectRows(#"Colunas Renomeadas3", each true),
+				    #"Colunas Renomeadas4" = Table.RenameColumns(#"Linhas Filtradas1",{{"Education", "Escolaridade"}, {"EducationField", "Formação"}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Colunas Renomeadas4",{"EmployeeCount", "EmployeeNumber"}),
+				    #"Valor Substituído9" = Table.ReplaceValue(#"Colunas Removidas","Life Sciences","Ciências da Vida",Replacer.ReplaceText,{"Formação"}),
+				    #"Valor Substituído10" = Table.ReplaceValue(#"Valor Substituído9","Other","Outro",Replacer.ReplaceText,{"Formação"}),
+				    #"Valor Substituído11" = Table.ReplaceValue(#"Valor Substituído10","Technical Degree","Técnico",Replacer.ReplaceText,{"Formação"}),
+				    #"Valor Substituído12" = Table.ReplaceValue(#"Valor Substituído11","Medical","Saúde",Replacer.ReplaceText,{"Formação"}),
+				    #"Valor Substituído13" = Table.ReplaceValue(#"Valor Substituído12","Human Resources","Recursos Humanos",Replacer.ReplaceText,{"Formação"}),
+				    #"Valor Substituído14" = Table.ReplaceValue(#"Valor Substituído13","Ciências da Vida","Ciências",Replacer.ReplaceText,{"Formação"}),
+				    #"Colunas Renomeadas5" = Table.RenameColumns(#"Valor Substituído14",{{"EnvironmentSatisfaction", "Satisfação"}, {"Gender", "Gênero"}}),
+				    #"Valor Substituído15" = Table.ReplaceValue(#"Colunas Renomeadas5","Female","Feminino",Replacer.ReplaceText,{"Gênero"}),
+				    #"Valor Substituído16" = Table.ReplaceValue(#"Valor Substituído15","Male","Masculino",Replacer.ReplaceText,{"Gênero"}),
+				    #"Colunas Renomeadas6" = Table.RenameColumns(#"Valor Substituído16",{{"HourlyRate", "Carga Horária"}, {"JobInvolvement", "Envolvimento Trabalho"}, {"JobLevel", "Nível Cargo"}, {"JobRole", "Cargo"}, {"JobSatisfaction", "Satisfação Trabalho"}}),
+				    #"Valor Substituído17" = Table.ReplaceValue(#"Colunas Renomeadas6","Manager","Gerente",Replacer.ReplaceText,{"Cargo"}),
+				    #"Valor Substituído18" = Table.ReplaceValue(#"Valor Substituído17","Laboratory Technician","Técnico de Laboratório",Replacer.ReplaceText,{"Cargo"}),
+				    #"Valor Substituído19" = Table.ReplaceValue(#"Valor Substituído18","Sales Representative","Representante de Vendas",Replacer.ReplaceText,{"Cargo"}),
+				    #"Valor Substituído20" = Table.ReplaceValue(#"Valor Substituído19","Research Scientist","Cientista Pesquisador",Replacer.ReplaceText,{"Cargo"}),
+				    #"Valor Substituído21" = Table.ReplaceValue(#"Valor Substituído20","Human Resources","Recursos Humanos",Replacer.ReplaceText,{"Cargo"}),
+				    #"Valor Substituído22" = Table.ReplaceValue(#"Valor Substituído21","Manufacturing Director","Diretor de Manufatura",Replacer.ReplaceText,{"Cargo"}),
+				    #"Valor Substituído23" = Table.ReplaceValue(#"Valor Substituído22","Sales Executive","Executivo de Vendas",Replacer.ReplaceText,{"Cargo"}),
+				    #"Valor Substituído24" = Table.ReplaceValue(#"Valor Substituído23","Healthcare Representative","Representante de Saúde",Replacer.ReplaceText,{"Cargo"}),
+				    #"Valor Substituído25" = Table.ReplaceValue(#"Valor Substituído24","Research Director","Diretor de Pesquisa",Replacer.ReplaceText,{"Cargo"}),
+				    #"Colunas Renomeadas7" = Table.RenameColumns(#"Valor Substituído25",{{"MaritalStatus", "Estado Civil"}}),
+				    #"Valor Substituído26" = Table.ReplaceValue(#"Colunas Renomeadas7","Single","Solteiro",Replacer.ReplaceText,{"Estado Civil"}),
+				    #"Valor Substituído27" = Table.ReplaceValue(#"Valor Substituído26","Married","Casado",Replacer.ReplaceText,{"Estado Civil"}),
+				    #"Valor Substituído28" = Table.ReplaceValue(#"Valor Substituído27","Divorced","Divorciado",Replacer.ReplaceText,{"Estado Civil"}),
+				    #"Colunas Renomeadas8" = Table.RenameColumns(#"Valor Substituído28",{{"SalarySlab", "Faixa Salarial"}}),
+				    #"Valor Substituído29" = Table.ReplaceValue(#"Colunas Renomeadas8","Upto 5k","Acima 5k",Replacer.ReplaceText,{"Faixa Salarial"}),
+				    #"Colunas Removidas1" = Table.RemoveColumns(#"Valor Substituído29",{"MonthlyIncome", "MonthlyRate"}),
+				    #"Colunas Renomeadas9" = Table.RenameColumns(#"Colunas Removidas1",{{"NumCompaniesWorked", "Empregos Anteriores"}, {"Over18", "Maior de Idade"}}),
+				    #"Colunas Removidas2" = Table.RemoveColumns(#"Colunas Renomeadas9",{"Maior de Idade"}),
+				    #"Colunas Renomeadas10" = Table.RenameColumns(#"Colunas Removidas2",{{"OverTime", "Hora Extra"}}),
+				    #"Valor Substituído30" = Table.ReplaceValue(#"Colunas Renomeadas10","Yes","Sim",Replacer.ReplaceText,{"Hora Extra"}),
+				    #"Valor Substituído31" = Table.ReplaceValue(#"Valor Substituído30","No","Não",Replacer.ReplaceText,{"Hora Extra"}),
+				    #"Colunas Removidas3" = Table.RemoveColumns(#"Valor Substituído31",{"PercentSalaryHike"}),
+				    #"Colunas Renomeadas11" = Table.RenameColumns(#"Colunas Removidas3",{{"PerformanceRating", "Performance"}}),
+				    #"Colunas Removidas4" = Table.RemoveColumns(#"Colunas Renomeadas11",{"RelationshipSatisfaction", "StandardHours", "StockOptionLevel"}),
+				    #"Colunas Renomeadas12" = Table.RenameColumns(#"Colunas Removidas4",{{"TotalWorkingYears", "Tempo de Empresa"}}),
+				    #"Colunas Removidas5" = Table.RemoveColumns(#"Colunas Renomeadas12",{"TrainingTimesLastYear"}),
+				    #"Colunas Renomeadas13" = Table.RenameColumns(#"Colunas Removidas5",{{"WorkLifeBalance", "Vida Profissional e Pessoal"}, {"Tempo de Empresa", "Tempo de Trabalho"}, {"YearsAtCompany", "Tempo na Empresa"}, {"YearsInCurrentRole", "Cargo Atual"}, {"YearsSinceLastPromotion", "Última Promoção"}, {"YearsWithCurrManager", "Gerente Atual"}})
+				in
+				    #"Colunas Renomeadas13"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+
