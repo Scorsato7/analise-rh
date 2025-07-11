@@ -1,0 +1,31 @@
+table Medidas
+	lineageTag: 175e7b00-5551-482d-ad19-4e3eb162a5b7
+
+	measure '% Atrito' = ```
+			CALCULATE(
+			    COUNTROWS(HR_Analytics),
+			    HR_Analytics[Atrito] = "Sim"
+			) 
+			/ COUNTROWS(HR_Analytics)
+			```
+		lineageTag: d1bd5570-8ba1-4a81-af09-4da867fe7cce
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Column
+		formatString: 0
+		lineageTag: 30e60bb6-1737-4b23-af5c-e2d18bf86507
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Medidas = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = 571e0c56c09c48ffa59edf53420f44f5
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
+

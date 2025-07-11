@@ -15,6 +15,7 @@ annotation PBIDesktopVersion = 2.144.1378.0 (25.06)+cba1e61f16ea36d44901f06fa446
 annotation PBI_ProTooling = ["DevMode"]
 
 ref table HR_Analytics
+ref table Medidas
 
 ref cultureInfo pt-BR
 

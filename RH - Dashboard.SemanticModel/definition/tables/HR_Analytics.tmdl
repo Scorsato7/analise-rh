@@ -302,9 +302,10 @@ table HR_Analytics
 				    #"Colunas Removidas4" = Table.RemoveColumns(#"Colunas Renomeadas11",{"RelationshipSatisfaction", "StandardHours", "StockOptionLevel"}),
 				    #"Colunas Renomeadas12" = Table.RenameColumns(#"Colunas Removidas4",{{"TotalWorkingYears", "Tempo de Empresa"}}),
 				    #"Colunas Removidas5" = Table.RemoveColumns(#"Colunas Renomeadas12",{"TrainingTimesLastYear"}),
-				    #"Colunas Renomeadas13" = Table.RenameColumns(#"Colunas Removidas5",{{"WorkLifeBalance", "Vida Profissional e Pessoal"}, {"Tempo de Empresa", "Tempo de Trabalho"}, {"YearsAtCompany", "Tempo na Empresa"}, {"YearsInCurrentRole", "Cargo Atual"}, {"YearsSinceLastPromotion", "Última Promoção"}, {"YearsWithCurrManager", "Gerente Atual"}})
+				    #"Colunas Renomeadas13" = Table.RenameColumns(#"Colunas Removidas5",{{"WorkLifeBalance", "Vida Profissional e Pessoal"}, {"Tempo de Empresa", "Tempo de Trabalho"}, {"YearsAtCompany", "Tempo na Empresa"}, {"YearsInCurrentRole", "Cargo Atual"}, {"YearsSinceLastPromotion", "Última Promoção"}, {"YearsWithCurrManager", "Gerente Atual"}}),
+				    #"Duplicatas Removidas" = Table.Distinct(#"Colunas Renomeadas13", {"ID"})
 				in
-				    #"Colunas Renomeadas13"
+				    #"Duplicatas Removidas"
 
 	annotation PBI_NavigationStepName = Navegação
 
